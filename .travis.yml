@@ -4,8 +4,7 @@ branches:
     - master
     - /^greenkeeper/.*$/
 cache:
-  diretories:
-    - node_modules
+  npm: true
 notifications:
   email: false
 node_js:

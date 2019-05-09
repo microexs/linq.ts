@@ -1,6 +1,18 @@
 {
-  "extends": [
-    "tslint-config-standard",
-    "tslint-config-prettier"
-  ]
+  "extends": "tslint-microsoft-contrib",
+  "rules": {
+    "max-classes-per-file": false,
+    "completed-docs": false,
+    "no-implicit-dependencies": false,
+    "no-relative-imports": false,
+    "import-name": false,
+    "no-any": false,
+    "function-name":true,
+    "strict-boolean-expressions":false,
+    "typedef":false,
+    "newline-per-chained-call":false,
+    "no-parameter-properties":false,
+    "no-unsafe-any":false,
+    "no-use-before-declare":false
+  }
 }
