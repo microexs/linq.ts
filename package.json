@@ -1,5 +1,5 @@
 {
-  "name": "linqts",
+  "name": "linqts-camelcase",
   "version": "1.12.2",
   "description": "LinQ + TypeScript",
   "es2015": "index.ts",
