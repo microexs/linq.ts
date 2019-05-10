@@ -1,12 +1,10 @@
 {
   "name": "linqts-camelcase",
-  "version": "1.12.2",
-  "description": "LinQ + TypeScript",
+  "version": "1.12.4",
+  "description": "LinQ + TypeScript(this is a customized distribution)",
   "es2015": "index.ts",
-  "main": "dist/linqts.js",
-  "module": "dist/linqts.es.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "umd:main": "dist/linqts.umd.js",
   "scripts": {
     "build": "microbundle -o dist",
     "check-coverage": "nyc check-coverage --statements 98 --branches 90 --functions 96 --lines 99",
@@ -25,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kutyel/linq.ts.git"
+    "url": "https://github.com/microexs/linq.ts.git"
   },
   "keywords": [
     "linq",
@@ -33,19 +31,18 @@
   ],
   "files": [
     "dist",
-    "linq.ts",
     "readme.md"
   ],
   "author": {
-    "name": "Flavio Corpa",
-    "email": "flaviocorpa@gmail.com",
-    "url": "https://github.com/kutyel"
+    "name": "lulus",
+    "email": "snys98@outlook.com",
+    "url": "https://github.com/microexs"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kutyel/linq.ts/issues"
+    "url": "https://github.com/microexs/linq.ts/issues"
   },
-  "homepage": "https://github.com/kutyel/linq.ts#readme",
+  "homepage": "https://github.com/microexs/linq.ts#readme",
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.25.0",
